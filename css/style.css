@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Open Sans, serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.container {
+    width: 50%;
+    margin-left: 10%;
+}
+
+header ul {
+    border-bottom: #C08D5D 1px solid;
+    width: 90%;
+    height: 145px;
+    padding-top: 59px;
+    padding-bottom: 58px;
+}
+
+header li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 27px;
+    color: black;
+}
+
+header li:first-child::before {
+    content: url("../images/logo.svg");
+    display: inline-block;
+    height: 59px;
+    vertical-align: middle;
+    color: #C08D5D;
+    margin-right: 83px;
+}
+
+header li:first-child  a{
+    color: #C08D5D;
+}
+
